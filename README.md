@@ -22,12 +22,17 @@ NPX: It is a package runner tool that comes with npm 5.2+, npx is easy to use CL
 ![To Do ReactJS App](./src/images/Todo-ReactApp.jpg)
 
 ## Host App in Github
+
 Update 'package.json' file with ``` "homepage": "https://<username>.github.io/<repo_name>" ```
+
 Install the following package using ``` npm i gh-pages ```
+
 Update 'package.json' file's 'scripts' with the below details
 ```
 "predeploy" : "npm run build",
 "deploy" : "gh-pages -d build",
 ``` 
+
 Push the code to your repository
+
 Run the following command ``` npm run deploy ```
